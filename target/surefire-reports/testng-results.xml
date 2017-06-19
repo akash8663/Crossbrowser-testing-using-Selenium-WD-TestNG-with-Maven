@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="267107" started-at="2017-06-19T00:23:24Z" finished-at="2017-06-19T00:27:51Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="181865" started-at="2017-06-19T00:23:24Z" finished-at="2017-06-19T00:26:26Z">
+      <class name="com.Hotels.test.hotels_app.AutomationHotelTest">
+        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:0, instance:com.Hotels.test.hotels_app.AutomationHotelTest@32d992b2]" name="loadApp" is-config="true" duration-ms="14164" started-at="2017-06-18T20:23:24Z" finished-at="2017-06-18T20:23:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method status="PASS" signature="testApp()[pri:0, instance:com.Hotels.test.hotels_app.AutomationHotelTest@32d992b2]" name="testApp" duration-ms="167506" started-at="2017-06-18T20:23:38Z" finished-at="2017-06-18T20:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method status="PASS" signature="exitingApp()[pri:0, instance:com.Hotels.test.hotels_app.AutomationHotelTest@32d992b2]" name="exitingApp" is-config="true" duration-ms="192" started-at="2017-06-18T20:26:26Z" finished-at="2017-06-18T20:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitingApp -->
+      </class> <!-- com.Hotels.test.hotels_app.AutomationHotelTest -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="267107" started-at="2017-06-19T00:23:24Z" finished-at="2017-06-19T00:27:51Z">
+      <class name="com.Hotels.test.hotels_app.AutomationHotelTest">
+        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:0, instance:com.Hotels.test.hotels_app.AutomationHotelTest@32e6e9c3]" name="loadApp" is-config="true" duration-ms="5851" started-at="2017-06-18T20:23:24Z" finished-at="2017-06-18T20:23:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method status="PASS" signature="testApp()[pri:0, instance:com.Hotels.test.hotels_app.AutomationHotelTest@32e6e9c3]" name="testApp" duration-ms="260714" started-at="2017-06-18T20:23:30Z" finished-at="2017-06-18T20:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+        <test-method status="PASS" signature="exitingApp()[pri:0, instance:com.Hotels.test.hotels_app.AutomationHotelTest@32e6e9c3]" name="exitingApp" is-config="true" duration-ms="531" started-at="2017-06-18T20:27:51Z" finished-at="2017-06-18T20:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitingApp -->
+      </class> <!-- com.Hotels.test.hotels_app.AutomationHotelTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.Hotels.test.hotels_app.AutomationHotelTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.Hotels.test.hotels_app.AutomationHotelTest">
+        <methods>
+          <include name="testApp"/>
+          <include name="exitingApp"/>
+          <include name="loadApp"/>
+        </methods>
+      </class> <!-- com.Hotels.test.hotels_app.AutomationHotelTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.Hotels.test.hotels_app.AutomationHotelTest] -->
